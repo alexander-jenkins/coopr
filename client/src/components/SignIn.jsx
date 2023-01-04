@@ -28,7 +28,7 @@ function SignIn() {
 
         try {
             await signIn(email.current.value, password.current.value);
-            navigate('/home');
+            navigate('/app');
         } catch (err) {
             setError(err.message);
         }
@@ -36,7 +36,7 @@ function SignIn() {
 
     // a signed-in user should not be able to access the sign-up page!
     function checkAuth() {
-        if (auth.currentUser) navigate('/home');
+        if (auth.currentUser) navigate('/app');
     }
 
     // run the checkAuth function on page load
