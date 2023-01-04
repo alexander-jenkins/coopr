@@ -43,7 +43,7 @@ app.use('/api', api);
 
 // all other GET requests not already handled will return our React app
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+    res.sendFile(path.resolve(__dirname, '../client/dist', 'index.html'));
 });
 
 // have Express listen for requests
