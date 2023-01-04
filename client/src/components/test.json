@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "title": "Test Project",
+            "description": "This is testing the list component"
+        },
+        {
+            "title": "Test Project",
+            "description": "This is testing the list component"
+        },
+        {
+            "title": "Test Project",
+            "description": "This is testing the list component"
+        }
+    ],
+
+    "tickets": [
+        {
+            "favorite": true,
+            "idNum": "abc123456",
+            "raisedBy": "John Doe",
+            "assignee": "Jane Doe",
+            "category": "Log in",
+            "dueDate": "12/25/22",
+            "priority": "Minor",
+            "status": "Open",
+            "title": "Can't Sign In",
+            "description": "Its not working"
+        },
+        {
+            "favorite": false,
+            "idNum": "543210",
+            "raisedBy": "Jane Doe",
+            "assignee": "John Doe",
+            "category": "Frontend",
+            "dueDate": "12/31/22",
+            "priority": "Medium",
+            "status": "Solved",
+            "title": "UI bugs",
+            "description": "sidebar won't load"
+        }
+    ],
+
+    "comments": [
+        {
+            "user": "Jane Doe",
+            "comment": ":("
+        },
+        {
+            "user": "Mike Doe",
+            "comment": "No"
+        },
+        {
+            "user": "Jane Doe",
+            "comment": "did you try restarting?"
+        }
+    ]
+}

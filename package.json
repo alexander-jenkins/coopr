@@ -1,0 +1,32 @@
+{
+    "name": "coopr",
+    "version": "1.0.0",
+    "description": "An open-source issue tracking system.",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "echo \"Starting the project.\" && node server/server.js",
+        "dev": "echo \"Starting the API and watching for changes.\" && nodemon server/server.js",
+        "build": "cd client && npm install && npm run build",
+        "testBuild": "cd client && npm install && npm run build && cd .. && npm run start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexander-jenkins/coopr.git"
+    },
+    "author": "Alexander Jenkins",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/alexander-jenkins/coopr/issues"
+    },
+    "homepage": "https://github.com/alexander-jenkins/coopr#readme",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.7.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
