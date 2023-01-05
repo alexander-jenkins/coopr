@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { UserAuth } from '../contexts/AuthContext';
+import { UserAuth } from '../../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 function SignOutButton() {

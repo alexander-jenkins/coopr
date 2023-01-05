@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Card, Row, Col, Form, Button } from 'react-bootstrap';
-import { UserAuth } from '../contexts/AuthContext';
+import { UserAuth } from '../../contexts/AuthContext';
 
 function CommentForm() {
     const { user } = UserAuth();

@@ -9,10 +9,10 @@ import {
     Stack,
     Alert,
 } from 'react-bootstrap';
-import { UserAuth } from '../contexts/AuthContext';
-import { auth } from '../firebase';
+import { UserAuth } from '../../contexts/AuthContext';
+import { auth } from '../../firebase';
 import background from '../images/WoodsCastle.png';
-import AuthCard from '../components/AuthCard';
+import AuthCard from './AuthCard';
 
 function SignUp() {
     const email = React.useRef();

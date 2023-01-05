@@ -1,7 +1,7 @@
 import React, { createContext } from 'react';
 import { Container, Row, Col, Stack } from 'react-bootstrap';
-import PPsidebar from '../components/PPsidebar';
-import TicketList from '../components/TicketList';
+import PPsidebar from '../components/ProjectPage/PPsidebar';
+import TicketList from '../components/ProjectPage/TicketList';
 import tickets from '../components/test.json';
 
 const TicketContext = createContext();

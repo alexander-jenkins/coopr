@@ -2,7 +2,7 @@ import React from 'react';
 import { Container,Row, Stack } from 'react-bootstrap';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
 import Logo from '../images/Logo.svg';
-import CreateProject from '../components/CreateProject';
+import CreateProject from './CreateProject';
 
 function LPsidebar() {
     return (

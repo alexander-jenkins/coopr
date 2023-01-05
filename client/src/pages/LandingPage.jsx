@@ -1,8 +1,8 @@
 import { Col, Container, Row, Stack } from 'react-bootstrap';
 import React from 'react';
-import LPsidebar from '../components/LPsidebar';
-import Searchbar from '../components/Searchbar';
-import ProjectList from '../components/ProjectList';
+import LPsidebar from '../LandingPage/LPsidebar';
+import Searchbar from '../LandingPage/Searchbar';
+import ProjectList from '../LandingPage/ProjectList';
 import { UserAuth } from '../contexts/AuthContext';
 import { useQuery } from 'react-query';
 

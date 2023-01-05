@@ -1,6 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { UserAuth } from '../contexts/AuthContext';
+import { UserAuth } from '../../contexts/AuthContext';
 import {
     Alert,
     Button,
@@ -11,8 +11,8 @@ import {
     Stack,
 } from 'react-bootstrap';
 import background from '../images/RockyMountainCastle.png';
-import AuthCard from '../components/AuthCard';
-import { auth } from '../firebase';
+import AuthCard from './AuthCard';
+import { auth } from '../../firebase';
 
 function SignIn() {
     const { signIn } = UserAuth();

@@ -1,7 +1,7 @@
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import UserDropdown from './UserDropdown';
-import { UserAuth } from '../contexts/AuthContext';
+import { UserAuth } from '../../contexts/AuthContext';
 import LogoBlack from '../images/LogoBlack.svg';
 
 export default function CooprNavbar() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import LPcards from '../components/LPcards';
+import LPcards from './LPcards';
 import { Stack } from 'react-bootstrap';
 
 function ProjectList(props) {

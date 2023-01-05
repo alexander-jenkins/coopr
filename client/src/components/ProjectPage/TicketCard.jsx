@@ -1,11 +1,11 @@
 import { Card, Col, Container, Form, Row, Modal, Stack } from 'react-bootstrap';
 import React, { useState } from 'react';
-import FavoriteButton from '../components/FavoriteButton';
-import EditTicket from '../components/EditTicket';
-import TicketBadge from '../components/TicketBadge';
-import CommentList from '../components/CommentList';
-import CommentForm from '../components/CommentForm';
-import comments from '../components/test.json';
+import FavoriteButton from './FavoriteButton';
+import EditTicket from './EditTicket';
+import TicketBadge from './TicketBadge';
+import CommentList from './CommentList';
+import CommentForm from './CommentForm';
+import comments from '../test.json';
 
 
 function TicketCard(props) {

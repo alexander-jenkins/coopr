@@ -3,7 +3,7 @@ import { Button, Container, Row, Col } from 'react-bootstrap';
 import LPnavbar from '../components/LPnavbar';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
 import { useNavigate, useLocation } from 'react-router-dom';
-import Searchbar from '../components/Searchbar'
+import Searchbar from '../LandingPage/Searchbar'
 
 function Result() {
 

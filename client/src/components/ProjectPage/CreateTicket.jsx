@@ -10,7 +10,7 @@ import {
     Col,
     Container,
 } from 'react-bootstrap';
-import { UserAuth } from '../contexts/AuthContext';
+import { UserAuth } from '../../contexts/AuthContext';
 import axios from 'axios';
 
 function CreateTicket() {

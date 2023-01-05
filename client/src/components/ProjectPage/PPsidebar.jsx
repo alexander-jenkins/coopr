@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Stack } from 'react-bootstrap';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
-import CreateTicket from '../components/CreateTicket';
+import CreateTicket from './CreateTicket';
 
 function PPsidebar() {
     return (
