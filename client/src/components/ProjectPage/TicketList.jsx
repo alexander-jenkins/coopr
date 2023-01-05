@@ -1,3 +1,5 @@
+//Displays a list of tickets on a project
+//ProjectPage -> TicketList -> TicketCard
 import React from 'react';
 import { Stack } from 'react-bootstrap';
 import TicketCard from './TicketCard';

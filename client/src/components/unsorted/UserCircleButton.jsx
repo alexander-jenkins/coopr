@@ -1,3 +1,5 @@
+//Symbol displayed on the right of the CooprNavbar
+//Displays a dropdown on click
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

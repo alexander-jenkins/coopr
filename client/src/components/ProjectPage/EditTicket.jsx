@@ -1,3 +1,5 @@
+//Edit button similar to the CreateTicket Component
+//Edits current attributes of a ticket
 import React, { useState } from 'react';
 import {
     Modal,

@@ -1,3 +1,5 @@
+//Sidebar on the project page
+//contains filters, etc.
 import React from 'react';
 import { Container, Stack } from 'react-bootstrap';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';

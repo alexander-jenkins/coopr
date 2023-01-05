@@ -1,3 +1,5 @@
+//Displays information on a ticket
+//ProjectPage -> TicketList -> TicketCard
 import { Card, Col, Container, Form, Row, Modal, Stack } from 'react-bootstrap';
 import React, { useState } from 'react';
 import FavoriteButton from './FavoriteButton';

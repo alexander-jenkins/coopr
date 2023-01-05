@@ -1,9 +1,11 @@
+//Displays a list of projects the user has access to
+//LandingPage -> ProjectList -> LPCards
 import React from 'react';
 import LPcards from './LPcards';
 import { Stack } from 'react-bootstrap';
 
 function ProjectList(props) {
-    //LandingPage -> ProjectList -> LPCards
+
     const projects = props.projects;
     return (
         <div>

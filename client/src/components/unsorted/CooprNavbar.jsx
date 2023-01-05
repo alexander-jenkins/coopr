@@ -1,3 +1,5 @@
+//Navbar displayed at the top of every page
+//Not displayed on Sign-in/ Sign-up
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import UserDropdown from './UserDropdown';

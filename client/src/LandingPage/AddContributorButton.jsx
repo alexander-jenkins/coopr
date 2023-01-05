@@ -1,3 +1,4 @@
+//Contains a button that shows a form that allows users to add contributors to their project 
 import React, { useState } from 'react';
 import { Button, Modal, Form, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

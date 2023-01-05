@@ -1,9 +1,10 @@
+//Displays a list of comments on a specific ticket
+//ProjectPage -> CommentList -> CommentCard
 import React from 'react';
 import { Stack } from 'react-bootstrap';
 import CommentCard from './CommentCard';
 
 function CommentList(props) {
-    //ProjectPage -> CommentList -> CommentCard
 
     const comments = props.commentList.comments;
     return (

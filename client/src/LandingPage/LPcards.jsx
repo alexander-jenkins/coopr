@@ -1,3 +1,5 @@
+//Displays information on a ticket
+//LandingPage -> ProjectList -> LPCards
 import { Card, Row, Col } from 'react-bootstrap';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';

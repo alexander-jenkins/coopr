@@ -1,3 +1,5 @@
+//Sign-up page
+//Contains Sign-up forms
 import React, {useEffect, useRef} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import {

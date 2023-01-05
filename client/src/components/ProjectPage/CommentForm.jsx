@@ -1,3 +1,4 @@
+//Contains the form for entering comments
 import React from 'react';
 import { Container, Card, Row, Col, Form, Button } from 'react-bootstrap';
 import { UserAuth } from '../../contexts/AuthContext';

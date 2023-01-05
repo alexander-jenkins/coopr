@@ -1,3 +1,5 @@
+//Button in the CooprNavbar dropdown
+//Signs the user out and returns them to the Sign-in Page
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { UserAuth } from '../../contexts/AuthContext';

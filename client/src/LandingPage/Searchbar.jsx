@@ -1,3 +1,4 @@
+//Search bar that sends user query to the results page
 import React from 'react' 
 import { useNavigate } from 'react-router-dom';
 import { Button, Form } from "react-bootstrap";

@@ -1,3 +1,4 @@
+//Toast that appears in the bottom left of the screen once an action is successfully completed
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';

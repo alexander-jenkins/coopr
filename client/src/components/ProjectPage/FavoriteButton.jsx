@@ -1,3 +1,5 @@
+//Favorite button in the TicketCard Component
+//Toggles favorite status on a ticket
 import React, { useState } from 'react';
 import { ToggleButton } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

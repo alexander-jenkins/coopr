@@ -1,3 +1,5 @@
+//Button for creating a project
+//Creates a modal on click that displays the forms for project creation
 // noinspection JSUnresolvedVariable
 
 import React, { useRef, useState } from 'react';

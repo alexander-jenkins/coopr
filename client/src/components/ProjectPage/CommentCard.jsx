@@ -1,3 +1,5 @@
+//Card that displays an individual comment
+//ProjectPage -> CommentList -> CommentCard
 import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 

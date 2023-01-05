@@ -1,4 +1,6 @@
-// noinspection JSUnresolvedVariable
+//Button for creating a ticket
+//Creates a modal on click that displays the forms for ticket creation
+//noinspection JSUnresolvedVariable
 
 import React, { useRef, useState } from 'react';
 import {

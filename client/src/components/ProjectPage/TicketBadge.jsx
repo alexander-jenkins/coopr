@@ -1,3 +1,5 @@
+//Badges used in the TicketCard component
+//Displays staus and severity
 import React from 'react';
 import { Badge } from 'react-bootstrap';
 
