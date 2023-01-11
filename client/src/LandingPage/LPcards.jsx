@@ -22,7 +22,7 @@ function LPcards(props) {
                                 </Col>
                         </Row>
                 </Card.Header>
-                <Card.Body onClick={() => navigate('/project')}>
+                <Card.Body onClick={() => navigate('/app/projects')}>
                     <Card.Text> {props.description} </Card.Text>
                 </Card.Body>
             </Card>

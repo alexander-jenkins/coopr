@@ -2,7 +2,7 @@
 //User can currently sign in or  view account settings
 import React from 'react';
 import { NavDropdown } from 'react-bootstrap';
-import user from '../images/person-circle.svg';
+import user from '../../images/person-circle.svg';
 
 function UserDropdown({ children }) {
     return (

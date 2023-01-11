@@ -13,7 +13,7 @@ import {
 } from 'react-bootstrap';
 import { UserAuth } from '../../contexts/AuthContext';
 import { auth } from '../../firebase';
-import background from '../images/WoodsCastle.png';
+import background from '../../images/WoodsCastle.png';
 import AuthCard from './AuthCard';
 
 function SignUp() {

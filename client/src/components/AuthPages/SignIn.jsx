@@ -12,7 +12,7 @@ import {
     Row,
     Stack,
 } from 'react-bootstrap';
-import background from '../images/RockyMountainCastle.png';
+import background from '../../images/RockyMountainCastle.png';
 import AuthCard from './AuthCard';
 import { auth } from '../../firebase';
 

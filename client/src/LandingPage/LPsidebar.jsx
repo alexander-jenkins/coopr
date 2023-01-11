@@ -3,7 +3,6 @@
 import React from 'react';
 import { Container,Row, Stack } from 'react-bootstrap';
 import SidebarMenu from 'react-bootstrap-sidebar-menu';
-import Logo from '../images/Logo.svg';
 import CreateProject from './CreateProject';
 
 function LPsidebar() {
@@ -13,20 +12,6 @@ function LPsidebar() {
                 <Row className="h-100">
                 <SidebarMenu className="vh-100 d-flex flex-column align-items-stretch"   bg='dark'>
                     <SidebarMenu.Header>
-                        <Stack gap={5}>
-                            <br />
-                            <SidebarMenu.Brand className='text-center'>
-                                <div>
-                                    <img
-                                        src={Logo}
-                                        width='75'
-                                        height='75'
-                                        alt='Coopr Logo'
-                                    ></img>{' '}
-                                    <h1 className={'text-light'}>Coopr</h1>
-                                </div>
-                            </SidebarMenu.Brand>
-                        </Stack>
                     </SidebarMenu.Header>
                     <SidebarMenu.Body>
                         <Container>
