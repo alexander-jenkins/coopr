@@ -21,7 +21,6 @@ function Landing_Page() {
 
     if (error) return 'error';
     if (isLoading) return 'loading';
-    console.log(data);
     return (
         <div className='overflow-hidden' style={{ backgroundColor: '#D9D9D9' }}>
             <Row>
