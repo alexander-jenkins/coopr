@@ -1,4 +1,4 @@
-const projectModel = require("../models/Project");
+const projectModel = require("../models/ProjectModel");
 
 // default response
 exports.endpoints = (req, res) => {
@@ -106,11 +106,9 @@ exports.editProject = (req, res) => {
           .status(500)
           .json({ status: "An error occurred while editing your project." });
       else
-        res
-          .status(200)
-          .json({
-            status: `Project ID ${req.query.projectID} was edited successfully.`,
-          });
+        res.status(200).json({
+          status: `Project ID ${req.query.projectID} was edited successfully.`,
+        });
     }
   );
 };

@@ -22,5 +22,5 @@ const TicketSchema = new mongoose.Schema(
 );
 TicketSchema.index({ title: "text", description: "text" });
 
-const Ticket = mongoose.model("Ticket", TicketSchema);
-module.exports = Ticket;
+const TicketModel = mongoose.model("TicketModel", TicketSchema);
+module.exports = TicketModel;

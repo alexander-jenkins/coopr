@@ -1,5 +1,5 @@
-const ticketModel = require("../models/Ticket");
-const commentModel = require("../models/Comment");
+const ticketModel = require("../models/TicketModel");
+const commentModel = require("../models/CommentModel");
 
 // provide the endpoint description
 exports.description = (req, res) => {

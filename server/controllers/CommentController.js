@@ -1,4 +1,4 @@
-const commentModel = require("../models/Comment");
+const commentModel = require("../models/CommentModel");
 
 // default response
 exports.endpoints = (req, res) => {
@@ -47,12 +47,10 @@ exports.updateComment = (req, res) => {
           .status(500)
           .json({ message: "There was an error updating your comment." });
       else
-        res
-          .status(200)
-          .json({
-            status: `Comment ${req.query.commentID} was successfully updated.`,
-            comment: comment,
-          });
+        res.status(200).json({
+          status: `Comment ${req.query.commentID} was successfully updated.`,
+          comment: comment,
+        });
     }
   );
 };

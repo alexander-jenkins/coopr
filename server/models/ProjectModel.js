@@ -14,5 +14,5 @@ const ProjectSchema = new mongoose.Schema(
 );
 ProjectSchema.index({ title: "text", owner: "text", collaborators: "text" });
 
-const Project = mongoose.model("Project", ProjectSchema);
-module.exports = Project;
+const ProjectModel = mongoose.model("Project", ProjectSchema);
+module.exports = ProjectModel;
