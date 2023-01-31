@@ -33,6 +33,10 @@ app.use("/api/comment", comment);
 const project = require("./routes/ProjectRoute");
 app.use("/api/project", project);
 
+// users
+const user = require("./routes/UserRoute");
+app.use("/api/user", user);
+
 // base API endpoint
 const api = require("./routes/ApiRoute");
 app.use("/api", api);
